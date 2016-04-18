@@ -1,0 +1,34 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	The directory will create a hidden subdirtectory called git.
+	After initialization this directory will have history about what files has been changed inside it.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	Staging area have the files which will be committed in next commit.
+	Working directory has all the files including files in staging area and files not in that.
+	The repository contains the history about every commit and the objects commit included.
+	It is very clear for user to recognize what files will going to put into the next commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Before the commit, you can use the command git diff --staged to know the changes between the staging area and the latest commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	In situation where I'd like to have a experiment version or backup a version.
+	Branch is like a label that save a list of commit ID. In such case, whenever it have a big change or refactor the code, it is useful.
+
+How do the diagrams help you visualize the branch structure?
+
+	It is good for user to easy understand thw whole structure.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The two originally indepent history line will be merge into one sorted by the committed time. Therefore, all these commit are accessible from the new commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Git's automatic merging would compare the original version and the two branch you're going to merge so that it is much easier to resolve the conflicts these versions occured.
+	Merge manually always depends on memory of brains, which will easily make a mistake or ignore the important parts.
+
