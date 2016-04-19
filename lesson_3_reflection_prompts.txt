@@ -16,10 +16,10 @@ What is the benefit of having a copy of the last known state of the remote store
 
     When collaborate with other partners, we can know the latest version.
 
-How would you collaborate without using Git or GitHub?  What would be easier,
-and what would be harder?
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
-    
+    I think I will create a Dropbox shared folder which anyone collaborate can upload the updated version onto it once project has been modified.
+    In my opinion, git is not that easy to learn. However, once you're familiar with it, it must be a great tool to make the version control and collboration much more convenient and efficient.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
