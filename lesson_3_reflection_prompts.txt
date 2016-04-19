@@ -21,7 +21,6 @@ How would you collaborate without using Git or GitHub? What would be easier, and
     I think I will create a Dropbox shared folder which anyone collaborate can upload the updated version onto it once project has been modified.
     In my opinion, git is not that easy to learn. However, once you're familiar with it, it must be a great tool to make the version control and collboration much more convenient and efficient.
 
-When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
-    
+    When I'd like to modify the file which collaborate with others, I'll create a new branch name it with a specific name. Finally, it can be merge (pull request) on Github. After merged, branch can be deleted.
